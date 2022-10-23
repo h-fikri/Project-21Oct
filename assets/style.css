@@ -34,6 +34,7 @@ header {
 }
 
 /* header logo ends */
+
 /* nav starts */
 .navbar {
     /* padding-top: 15px; */
@@ -54,15 +55,8 @@ header {
 }
 /* nav ends */
 /* header ends */
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
+/* main image starts*/
 .hero {
     width: 100%;
     height: 100%;
@@ -70,7 +64,17 @@ p {
 
 .hero img {
     width: 100%;
+}
+/* main image ends*/
 
+/* main starts*/
+a { /* this is for any link inside*/
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p { /* this is for any paragraph*/
+    font-size: 16px;
 }
 
 .float-left {
@@ -202,6 +206,9 @@ p {
     font-size: 36px;
 }
 
+/* main end*/
+
+/* footer semantic start*/
 .footer {
     padding: 30px;
     clear: both;
@@ -212,3 +219,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* footer semantic end*/
